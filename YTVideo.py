@@ -13,3 +13,10 @@ with open ("newfile.txt", 'r') as file:
     print(type(var))
     file.close()
     pass 
+
+# How to read a file
+with open("LoremIpsum.txt", 'r') as file:
+    var = file.read()
+    print(var)
+    file.close()
+    pass 
